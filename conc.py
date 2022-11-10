@@ -1,9 +1,12 @@
-areas = ["cuina", 7.88, "menjador", 13.0, "terrassa", 20.34, "lavabo", 6.55, "habitació1", 7.98, "habitació2", 12, "rebedor", 4.23]
+#Declarem les dues variables int per després sumar.
+intvar1 = 12
+intvar2 = 53
 
-print(areas[1]) #part1
-print(areas[len(areas)-1]) # part1
+#Imprimir el resultat de la suma de les dues variables (int)
+print(intvar1+intvar2)
 
-print(areas[5])
+#Imprimir el resultat de la suma de les dues variables (int) dintre d'un text (string)
 
-for n in areas:
-    print(n)
+print("El resultat de la suma entre"+str(intvar1)+" y "+str(intvar2)+" es "+str(intvar1+intvar2))
+
+ 
